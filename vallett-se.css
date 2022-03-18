@@ -1,0 +1,16 @@
+.centered {
+    text-align: center;
+}
+
+.top-margin {
+    margin-top: 2em;
+}
+
+button {
+    background: #0f0c4e;
+    color: #949393;
+}
+
+.links button {
+    margin-left: 1rem;
+}
