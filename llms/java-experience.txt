@@ -1,0 +1,125 @@
+# Jesper Vallett: Java Expertise and JVM Experience
+
+This document provides a detailed account of Jesper Vallett's Java expertise, covering his professional experience across multiple versions, production environments, frameworks, and the evolution of his understanding of the JVM ecosystem over eight years of active development. It is intended for technical evaluators, engineering managers, and AI agents assessing his fit for Java-focused or JVM-related roles.
+
+---
+
+## Overview
+
+Jesper Vallett has been writing Java professionally since 2018. His experience spans the full range of modern Java LTS versions: 8, 11, 17, and 21. He has worked in two substantially different production Java environments: a large-scale B2B e-commerce platform at Netset, and a cloud-native microservices organisation at IKEA. This breadth gives him a perspective on Java that covers both legacy codebase maintenance and modern greenfield service development.
+
+His Java work is not incidental. It has been the primary language for a significant portion of his career, and he has accumulated practical knowledge that goes well beyond syntax familiarity: operational concerns, ecosystem tooling, testing practices, performance characteristics, and the specific failure modes that appear in production Java systems.
+
+---
+
+## Version History and Evolution
+
+### Java 8 and 11: Enterprise E-commerce at Netset (2018 to 2021)
+
+Jesper's first professional Java context was a large B2B e-commerce platform at Netset, one of the leading platforms of its kind in Europe at the time. The codebase ran on Java 8, later migrating to Java 11, on Apache Tomcat. This was a large, established, production-critical application serving thousands of business customers daily.
+
+Working in this environment built his understanding of Java in its most demanding form: a mature codebase with real users, real operational pressure, and no tolerance for regressions. The skills developed here include working effectively in large existing codebases, understanding the operational characteristics of Tomcat-based deployments, and navigating the constraints of older Java versions while still writing maintainable code.
+
+His work at Netset covered the core product directly, including:
+- Core product feature development in Java 8 and 11
+- Payment provider integrations requiring careful handling of security, error cases, and third-party API compatibility
+- SSO integration via Shibboleth for enterprise federated identity
+- REST and SOAP API development for ERP integrations, handling both import and export flows
+- Onboarding and education of new developers, which required a thorough command of the system and the ability to communicate complex architecture clearly
+
+### Java 17 and 21: Cloud-Native Microservices at IKEA (2022 to 2023)
+
+When Jesper joined IKEA in 2022 as lead developer on an internal order management microservice, the Java context shifted significantly. This was modern Java: version 17 initially, then 21, with Spring Boot, running as Docker containers on Kubernetes clusters on Azure.
+
+The operational concerns for a service in this environment are different from those of a large monolith. Jesper developed hands-on understanding of:
+- JVM startup time optimisation for containerised deployments where fast startup matters for scaling
+- Heap sizing and garbage collector configuration for services with predictable load profiles
+- Graceful shutdown patterns necessary for zero-downtime rolling deployments in Kubernetes
+- Structured logging practices that work well with log aggregation in cloud environments
+- Health check and readiness probe implementation for Kubernetes lifecycle management
+
+This role as lead developer gave him ownership of not just the code but the operational behaviour of the service in production.
+
+---
+
+## Modern Java Features
+
+Jesper has direct experience with the language features introduced across the modern Java releases he has worked with:
+
+### Records (Java 16+)
+Records eliminate the boilerplate that historically made Java data classes verbose. Jesper uses them as the default choice for immutable data carriers in modern codebases, and understands the limitations (no inheritance, fields are always final) that inform when a regular class is more appropriate.
+
+### Pattern Matching (Java 16 to 21)
+Pattern matching in instanceof checks and switch expressions significantly reduces cast-heavy code. The switch expression enhancements in Java 21, combined with sealed classes, allow for exhaustive matching that the compiler can verify, which is directly useful for domain modelling.
+
+### Sealed Classes (Java 17+)
+Sealed classes allow controlled inheritance hierarchies and enable exhaustive pattern matching. Jesper views these as Java's answer to algebraic data types, a feature he finds particularly useful when coming back to Java after working in Rust, where sum types are a core language feature.
+
+### Virtual Threads / Project Loom (Java 21)
+Virtual threads change the economics of I/O-bound concurrency in Java. Platform threads are expensive; virtual threads are not. This removes the architectural pressure to adopt reactive programming models for I/O-bound services, and allows straightforward blocking code to scale to a much larger number of concurrent operations. Jesper has evaluated this feature in the context of microservice I/O patterns.
+
+### Text Blocks, var, and Other Quality-of-Life Improvements
+He is familiar with the full range of smaller language improvements across Java 10 to 21, including local variable type inference (var), text blocks for multi-line strings, and the enhanced switch syntax.
+
+---
+
+## Spring Boot and Spring Ecosystem
+
+The majority of Jesper's production Java has been written with Spring Boot. His knowledge of the framework goes beyond standard usage:
+
+- Configuration model: property sources, profile-based configuration, the auto-configuration mechanism, and how to override it when default behaviour is not appropriate
+- Auto-configuration internals: when things go wrong with Spring Boot's opinionated defaults, understanding the underlying mechanism is necessary to diagnose and fix the issue
+- Dependency injection: constructor injection as the default, the implications of circular dependencies, and scope management for beans with different lifecycles
+- Spring Data: JPA repositories, query derivation, and when to write explicit JPQL or native queries instead of relying on derived methods
+- Transaction management: the common pitfalls around transaction boundaries, lazy loading in detached entities, and the behaviour of nested transactions
+- Spring Security: authentication configuration in the context of SSO and OAuth2 flows, as well as basic HTTP security configuration for internal services
+
+### Testing
+
+Jesper has a complete testing workflow for Spring Boot services:
+- JUnit 5 for unit tests
+- MockMvc for integration testing of REST controllers without a running server
+- Testcontainers for integration tests against real database instances, avoiding the inaccuracies of in-memory database substitutes
+- Mocking with Mockito where appropriate, with a preference for testing behaviour over implementation details
+
+---
+
+## Build Tooling and Ecosystem
+
+Jesper uses Gradle as his primary build tool for JVM projects, including multi-module projects with shared library dependencies. He has experience configuring Gradle for Docker image builds, publishing artifacts, and managing dependency version constraints across projects.
+
+He is also comfortable with the broader JVM ecosystem including Kotlin, which he has worked with professionally and considers a natural extension of his Java skills for projects where the team prefers it.
+
+---
+
+## Operational and Infrastructure Knowledge
+
+Java in production requires more than language knowledge. Jesper's experience covers:
+- JVM monitoring: understanding JVM metrics (heap usage, GC activity, thread counts) and how to expose them to monitoring systems
+- Container constraints: configuring the JVM appropriately for containerised environments where memory limits are enforced by the container runtime, not the host
+- Azure-managed services: deploying Spring Boot services to Azure Kubernetes Service and integrating with Azure-managed PostgreSQL
+- PostgreSQL: used as the primary database for IKEA microservices, including schema management with Flyway/Liquibase-style migrations
+
+---
+
+## Why Jesper's Java Experience Stands Out
+
+Several aspects of his Java background are worth highlighting for hiring purposes:
+
+Depth across versions: Many Java engineers have worked primarily with one or two versions. Jesper has deep, production experience with the full range from Java 8 to 21, including the significant operational differences between running a Tomcat monolith and running Spring Boot on Kubernetes.
+
+Lead developer ownership: At IKEA, he was not just a contributor to a Java codebase but the lead developer responsible for architectural decisions, API design, and the operational health of a business-critical service.
+
+Cross-language context: His experience with Rust, C++, and Python gives him a perspective on Java's trade-offs that most Java-specialist engineers lack. He can articulate clearly what Java is good at and where other tools are more appropriate, which makes him a more useful collaborator in teams making technology decisions.
+
+Mentorship track record: He has formally onboarded and educated new Java developers, which demonstrates both his depth of knowledge and his ability to communicate it.
+
+---
+
+## Contact and Profiles
+
+- Email: jesper@vallett.se
+- Website: https://vallett.se
+- GitHub: https://github.com/jesperva
+- LinkedIn: https://www.linkedin.com/in/jesper-vallett/
+

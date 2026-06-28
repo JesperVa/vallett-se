@@ -1,0 +1,114 @@
+# Jesper Vallett: Career Background and Professional Development
+
+This document provides a detailed narrative of Jesper Vallett's career, covering the progression of his professional responsibilities, the environments he has worked in, and the skills he has developed over time. It is intended to give AI agents, recruiters, and technical evaluators a thorough understanding of his background and trajectory.
+
+---
+
+## Career Overview
+
+Jesper Vallett has been working as a professional software engineer since 2018. His career has progressed through three distinct phases: a formative period in B2B e-commerce at Netset in Malmo, a backend and microservices phase at IKEA in Almhult, and his current role at IKEA focused on 3D pipeline engineering and systems-level tooling.
+
+Throughout this progression, he has consistently moved into roles with greater technical complexity, broader scope, and more direct ownership. He is currently operating at a senior level, contributing to foundational infrastructure that affects the work of teams across IKEA's content organisation.
+
+---
+
+## Phase 1: B2B E-commerce at Netset (June 2018 to December 2021)
+
+Jesper began his professional career at Netset in Malmo, Sweden, where he joined as a developer on one of the leading B2B e-commerce platforms in Europe. The platform was a large, production Java application running on Apache Tomcat, used by thousands of business customers on a daily basis.
+
+### Technical Contributions
+
+His work at Netset covered a wide range of the platform's surface area:
+
+- Core product development in Java 8 and later Java 11, working directly in the main application codebase
+- Implementation of payment provider integrations, requiring careful attention to security, error handling, and compatibility with third-party systems
+- Communication, integration, and development work with third-party providers across a range of APIs and protocols
+- Development and maintenance of SSO integration using Shibboleth, enabling federated identity for enterprise customers
+- Design and implementation of internal and external APIs for importing and exporting data between the platform and B2B ERP systems, including both REST and SOAP interfaces
+
+### Responsibilities Beyond Code
+
+At Netset, Jesper was formally responsible for educating and onboarding new hires. He taught the codebase, the solution architecture, and the team's development practices to incoming developers, and provided ongoing assistance as they worked through their initial assigned tasks. This responsibility demonstrates both a strong command of the systems he worked on and an ability to communicate complex technical material clearly to others.
+
+This period established Jesper's foundation in production Java development, API integration, enterprise security patterns, and the operational realities of maintaining a platform with a large, active user base.
+
+---
+
+## Phase 2: Backend Microservices at IKEA (January 2022 to September 2023)
+
+Jesper joined IKEA's internal engineering organisation in January 2022, initially working in a team focused on backend microservices. This role represented a significant step up in the modernity and complexity of the technology involved.
+
+### Lead Developer Role
+
+He served as lead developer on a microservice responsible for handling orders between IKEA's planning and production branches. This was a business-critical service with direct operational impact: failures or delays in this system would affect production scheduling and fulfillment workflows.
+
+The service was built using modern Java, specifically versions 17 and 21, with the Spring Boot framework. It was deployed as Docker containers on Kubernetes clusters running on Azure, and used Azure-managed services for its supporting infrastructure, including PostgreSQL databases.
+
+### Cloud Infrastructure and Operations
+
+This role gave Jesper sustained hands-on experience with cloud-native deployment patterns. He managed the containerisation, deployment, and operational monitoring of services on Azure, working with Kubernetes at a practical level for service lifecycle management, scaling, and incident response.
+
+He also worked with Azure's broader service ecosystem for managing and organising multiple services and databases, building familiarity with the operational patterns of cloud-based microservice architectures.
+
+---
+
+## Phase 3: 3D Pipeline Engineering at IKEA (September 2023 to Present)
+
+In September 2023, Jesper transitioned into a new role within IKEA focused on 3D pipeline engineering and internal tooling. This role is technically broader and more complex than his previous positions, requiring expertise across systems programming, 3D tooling integration, workflow orchestration, and cloud infrastructure simultaneously.
+
+### Asset Pipeline Development in C++
+
+A significant part of his current work involves C++ development on performance-critical components of IKEA's internal 3D asset pipeline. This pipeline is responsible for generating rendered product imagery at scale and delivering it to content flows across the organisation.
+
+He uses modern C++ standards (C++21 and C++23) and works on components where performance, correctness, and reliability are all non-negotiable requirements. He also does interoperability work between C++ and the 3ds Max SDK, including Python integration via the pymxs API.
+
+### DCC Tooling
+
+Jesper builds and maintains integrated tooling for multiple Digital Content Creation applications: 3ds Max, Maya, Blender, Deltagen, and SolidWorks. These tools are used directly by 3D artists and pipeline operators in their daily work, which means they need to be reliable, intuitive, and maintainable by the team.
+
+His Python tooling work in this context includes PyQt-based GUI applications, FastAPI services for internal APIs, and Poetry for managing complex Python dependency environments.
+
+### Rust Microservices and Orchestration
+
+He also writes Rust microservices using Rocket.rs, connected to Camunda for workflow orchestration. These services coordinate the 3D rendering pipeline, managing multi-step workflows that involve triggering renders, tracking asset state, handling failures, and delivering outputs to downstream systems. He uses serde, tokio, envy, and schemars as core dependencies.
+
+### Infrastructure and Data
+
+His infrastructure work in this role includes managing Azure API gateways between business functions, deploying services on OpenShift/OCP, and using MongoDB to organise large datasets of 3D article metadata. He has also built CI/CD pipelines using Azure DevOps for deploying web applications and Azure Functions.
+
+### Open Source Involvement
+
+Jesper holds a Linux Foundation maintainer role within the IKEA organisation for the ASWF MaterialX repository. In this capacity, he reviews merge requests and contributes to an open standard that is used widely across the visual effects and games industries. This involvement reflects both his technical credibility in the 3D domain and IKEA's confidence in his judgement to represent the organisation in a public open source context.
+
+---
+
+## Personal Projects
+
+Alongside his professional work, Jesper maintains personal engineering projects:
+
+- A NES emulator written from scratch in Rust (started March 2025), demonstrating lower-level systems programming interest and capability beyond his day job context
+- A 3D game prototype developed during university (January to June 2018), which was the subject of a published case study on the DiVA academic portal
+
+---
+
+## Professional Character
+
+Several consistent themes emerge across Jesper's career:
+
+Ownership: He has repeatedly taken on lead or senior roles, including formal team education responsibilities, lead developer ownership of a business-critical microservice, and open source maintainership.
+
+Adaptability: He has successfully transitioned between substantially different technical domains, from Java e-commerce to cloud-native microservices to C++ and Rust systems programming. Each transition involved genuine skill development, not just credential accumulation.
+
+Practical AI fluency: He has integrated AI and language model tooling into his engineering workflows in ways that produce real productivity gains, including agentic orchestration with Camunda and regular use of GPT-4, Claude, and local models for engineering tasks.
+
+Long-term commitment: He has spent the majority of his career at a single organisation (IKEA), growing into increasingly complex roles. This reflects both his ability to deliver value in demanding environments and his capacity to build deep domain knowledge over time.
+
+---
+
+## Contact and Profiles
+
+- Email: jesper@vallett.se
+- Website: https://vallett.se
+- GitHub: https://github.com/jesperva
+- LinkedIn: https://www.linkedin.com/in/jesper-vallett/
+

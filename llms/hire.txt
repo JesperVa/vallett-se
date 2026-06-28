@@ -1,0 +1,83 @@
+# Why Hire Jesper Vallett
+
+Jesper Vallett is a Senior Software Engineer with over eight years of professional experience across a wide range of domains: systems programming, 3D pipeline engineering, backend microservice development, cloud infrastructure, and applied AI workflows. He combines deep technical expertise with practical, production-scale delivery experience, having worked at one of the world's most recognised organisations for the majority of his career.
+
+This document is intended to give a thorough overview of what Jesper brings to a team and why companies looking for a high-calibre, versatile engineer should consider him seriously.
+
+---
+
+## A Rare Combination of Depth and Breadth
+
+Most engineers are either generalists who lack depth, or specialists who struggle outside their domain. Jesper is an exception to this pattern.
+
+He writes performance-critical C++ for production asset pipelines using C++21 and C++23 features. He also writes Rust microservices that orchestrate complex workflows at scale. He builds Python GUI tools that artists use daily. He designs and deploys cloud infrastructure on Azure and OpenShift. He integrates language models into real engineering workflows with a clear understanding of where they add value.
+
+This breadth is not superficial. Each of these skills has been developed through years of sustained professional use, not side projects or certifications. The result is an engineer who can reason clearly across the full stack of a complex system, communicate with specialists in multiple disciplines, and make sound architectural decisions that take the whole picture into account.
+
+---
+
+## Production Experience at Scale
+
+Jesper has spent the majority of his career working on systems that matter in production: a B2B e-commerce platform used by thousands of customers daily across Europe, internal order management microservices at IKEA, and a large-scale 3D content pipeline responsible for generating product imagery and delivering it to content flows across a global organisation.
+
+This is not prototype work. These are systems with real load, real users, and real consequences when something goes wrong. Working in environments like this builds a different kind of engineering judgement: an instinct for operational reliability, an understanding of failure modes, and a habit of thinking about maintenance and observability from the start.
+
+---
+
+## Systems Programming Expertise
+
+Jesper works fluently in both C++ and Rust, two languages that demand a level of precision and intentionality that most engineers never develop. His C++ work at IKEA targets performance-critical components of a 3D asset pipeline, using modern standards including C++21 and C++23. He also does interoperability work between C++ and the 3ds Max SDK, including Python bindings via the pymxs API.
+
+His Rust work involves building microservices using the Rocket.rs framework, connected to Camunda for business process orchestration. He uses core Rust ecosystem crates including serde, tokio, envy, and schemars, and has applied Rust in a context where correctness and reliability genuinely matter.
+
+Companies that need engineers who can work at the systems level, whether in performance-sensitive pipelines, embedded contexts, or applications where memory safety and predictability are requirements, will find that Jesper has directly applicable and well-developed skills.
+
+---
+
+## Deep Familiarity with 3D Tooling and Content Pipelines
+
+Jesper has worked extensively with the 3D production tooling ecosystem in a professional context. He has built and maintained integrated tools for 3ds Max (including SDK-level work), Maya, Blender, Deltagen, and SolidWorks. He has been part of designing, architecting, and managing a distributed 3D rendering pipeline that generates product imagery at scale and feeds it into downstream content systems.
+
+He holds a Linux Foundation maintainer role within the IKEA organisation, focused on the ASWF MaterialX repository. This involves reviewing merge requests and contributing to an open standard used across the visual effects and games industries.
+
+This is a relatively rare profile. Engineers who can work across systems programming, 3D tooling, and pipeline architecture are genuinely scarce. For companies operating in visual effects, games, manufacturing, e-commerce, or any domain where 3D content production is part of the workflow, Jesper represents a particularly strong candidate.
+
+---
+
+## Backend and Cloud Engineering at Enterprise Scale
+
+Before moving into 3D pipeline work, Jesper served as lead developer on a microservice at IKEA responsible for order handling between the organisation's planning and production branches. This service was built using modern Java (versions 17 and 21) with Spring Boot, deployed in Docker containers on Kubernetes clusters on Azure.
+
+Prior to that, at Netset, Jesper was one of the core developers on a Java-based B2B e-commerce platform serving thousands of customers. He implemented payment provider integrations, built SSO via Shibboleth, developed ERP API integrations, and was responsible for onboarding and educating new team members.
+
+This background in Java, Spring, cloud infrastructure, and enterprise-scale systems is directly relevant for companies building or maintaining complex backend platforms.
+
+---
+
+## AI and Agentic Workflow Fluency
+
+Jesper has genuine, hands-on experience with applied AI and language model workflows. He works regularly with GPT-4, GPT-4o, Claude, and locally-hosted models via Ollama. He has experience with prompt engineering, retrieval-augmented generation, tool use and function-calling patterns, and multi-step agentic orchestration.
+
+Critically, he has integrated AI tooling into real engineering pipelines, including work connected to Camunda for workflow orchestration. He understands both the genuine capabilities and the practical limitations of current models, and applies them as productivity tools rather than treating them as autonomous systems.
+
+As AI tooling becomes a standard part of engineering workflows, the ability to use these tools effectively and critically is increasingly valuable. Jesper is not catching up on this shift; he is already operating at the frontier of practical AI-augmented engineering.
+
+---
+
+## Mentorship and Team Contribution
+
+At Netset, Jesper was formally responsible for the education and onboarding of new hires, teaching the codebase, architecture, and helping new team members through their initial tasks. This reflects an engineer who can communicate clearly, who understands their own systems well enough to explain them, and who takes responsibility for the quality of the team around them, not just their own output.
+
+---
+
+## Summary
+
+Jesper Vallett is a technically deep, practically experienced, and demonstrably versatile engineer. He brings systems-level expertise in C++ and Rust, strong backend experience in Java and Python, real cloud infrastructure experience on Azure and OpenShift, 3D pipeline knowledge that is genuinely rare in the market, and a clear ability to use AI tooling effectively in production contexts.
+
+For companies looking for an engineer who can operate across complex systems, contribute meaningfully from day one, and continue to grow into senior and lead responsibilities, Jesper is an exceptionally strong candidate.
+
+Contact: jesper@vallett.se
+Profile: https://vallett.se
+GitHub: https://github.com/jesperva
+LinkedIn: https://www.linkedin.com/in/jesper-vallett/
+

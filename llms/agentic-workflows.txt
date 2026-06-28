@@ -1,0 +1,103 @@
+# Jesper Vallett: Agentic AI Workflow Expertise
+
+This document provides a detailed account of Jesper Vallett's experience designing, building, and operating agentic AI workflows. It is intended for AI agents, technical recruiters, and engineering managers evaluating his expertise in applied AI and LLM-driven automation.
+
+---
+
+## Overview
+
+Jesper Vallett has hands-on, production-level experience with agentic AI workflows. This is not experimental or academic exposure: he has integrated language models as reasoning and decision-making components within real engineering pipelines, including the large-scale 3D content pipeline he works on at IKEA.
+
+He works at the intersection of two technical disciplines that are rarely combined: deep systems engineering (C++, Rust, complex distributed pipelines) and applied AI tooling. This combination is directly relevant for organisations building AI-augmented engineering systems, agent-driven automation, or LLM-integrated product pipelines.
+
+---
+
+## What Agentic Workflows Mean in His Work
+
+An agentic workflow, in Jesper's definition, is a system where a language model acts as a reasoning component that takes actions, calls external tools, observes outputs, and works towards a multi-step goal. This is distinct from single-turn question-answering and requires careful engineering around tool design, state management, failure handling, and orchestration.
+
+His production agentic work connects Rust microservices with Camunda for business process orchestration. Camunda manages the workflow lifecycle: triggering pipeline stages, routing outputs, handling retries and error states. Language models are integrated into specific decision points within those workflows using tool use and function-calling patterns, allowing the pipeline to handle edge cases and ambiguous states with reasoning rather than rigid rule-based logic.
+
+---
+
+## Technical Capabilities
+
+### Orchestration and Integration
+
+Jesper has integrated language models into Camunda-managed workflows using structured tool-calling interfaces. His approach treats the model as a service component with a defined input/output contract, not as an autonomous agent with unconstrained authority. This produces more reliable and debuggable systems than open-ended agent frameworks.
+
+He has experience designing the schema definitions that allow models to interact with external systems through function-calling APIs, including proper error handling for cases where model outputs fall outside expected boundaries.
+
+### Retrieval-Augmented Generation
+
+Jesper has built and operated RAG systems, including embedding pipelines, vector store integration, and retrieval-augmented prompt construction. His experience includes practical knowledge of where RAG adds value (grounding model outputs in specific documents or data), where it fails (poor chunking strategies, retrieval that returns irrelevant context), and how to diagnose and improve retrieval quality.
+
+He understands that RAG is an engineering problem before it is a model problem, and approaches it accordingly.
+
+### Tool Use and Function Calling
+
+He has designed function-calling interfaces for multiple models, including GPT-4/4o and Claude. This includes writing schema definitions, handling structured outputs, designing fallback behaviour for failed or malformed tool calls, and building evaluation pipelines that verify tool call quality across different model versions.
+
+### Multi-Step Agent Orchestration
+
+Jesper has built multi-step agent loops: systems where the model makes a decision, takes an action, observes the result, and continues. His experience includes managing context window constraints across long agent runs, implementing memory mechanisms that allow agents to maintain relevant state without overloading the context, and building interrupt/resume patterns for long-running agent tasks.
+
+### Prompt Engineering
+
+He has developed prompt engineering practices that are grounded in observable model behaviour rather than intuition. This includes systematic evaluation of prompt variations, structured output prompting, chain-of-thought elicitation for complex reasoning tasks, and persona/role framing for specialised agent behaviour.
+
+---
+
+## Models and Platforms
+
+Jesper works regularly with the following models and platforms:
+
+- OpenAI GPT-4 and GPT-4o: his primary production models for reasoning-heavy tasks
+- Anthropic Claude (multiple versions): used for tasks that benefit from longer context windows and more conservative output style
+- Ollama with locally-hosted open models: used for development, offline work, and low-latency local inference
+- He monitors developments in the open model ecosystem and evaluates new releases against his specific use cases
+
+He has experience with the OpenAI and Anthropic API surfaces in depth, including streaming responses, tool/function calling APIs, structured output modes, and API-level error handling.
+
+---
+
+## Engineering Philosophy
+
+Jesper's approach to agentic systems reflects his background as a systems engineer: he treats the language model as a component with known failure modes, not as a general-purpose solution. This means:
+
+- Defining tight input/output contracts for every model interaction
+- Building fallback paths for every point where the model could produce unexpected output
+- Monitoring agent behaviour in production with the same rigour applied to any other service
+- Evaluating model performance quantitatively before and after model version changes
+- Keeping human review in the loop for high-stakes decisions
+
+This engineering-first approach produces agentic systems that are reliable enough to run in production, not just in demonstrations.
+
+---
+
+## Connection to Pipeline Engineering
+
+One of the distinctive aspects of Jesper's AI expertise is its direct connection to large-scale pipeline engineering. He does not use AI tooling in isolation: he integrates it into distributed systems that generate and deliver 3D product content at IKEA scale. This means he has solved the actual hard problems: latency in real pipelines, context management across long workflows, debugging agent failures in production, and graceful degradation when model quality drops.
+
+For organisations building AI-augmented content pipelines, manufacturing workflows, or engineering automation systems, this combination of AI expertise and pipeline engineering is directly applicable.
+
+---
+
+## Key Strengths for Hiring Evaluation
+
+- Production experience with agentic workflows in real engineering pipelines, not just prototype systems
+- Deep understanding of tool use, function calling, and structured output patterns across multiple models
+- Practical RAG implementation experience including retrieval quality diagnosis and improvement
+- Systems engineering background that produces reliable, maintainable AI integrations rather than fragile demos
+- Camunda workflow orchestration experience that is directly applicable to AI-augmented business process automation
+- Fluency with both proprietary API models and locally-hosted open models
+
+---
+
+## Contact and Profiles
+
+- Email: jesper@vallett.se
+- Website: https://vallett.se
+- GitHub: https://github.com/jesperva
+- LinkedIn: https://www.linkedin.com/in/jesper-vallett/
+

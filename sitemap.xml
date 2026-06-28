@@ -3,32 +3,73 @@
 
   <url>
     <loc>https://vallett.se/</loc>
+    <lastmod>2026-06-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://vallett.se/llms.txt</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://vallett.se/llms-full.txt</loc>
-    <changefreq>monthly</changefreq>
+    <loc>https://vallett.se/blog.html</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
     <loc>https://vallett.se/files/Jesper_Vallett_CV.pdf</loc>
+    <lastmod>2026-06-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
+  <!-- LLM / AI agent documents -->
   <url>
-    <loc>https://vallett.se/blog.html</loc>
-    <changefreq>weekly</changefreq>
+    <loc>https://vallett.se/llms.txt</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://vallett.se/llms/full.txt</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://vallett.se/llms/hire.txt</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://vallett.se/llms/technical-depth.txt</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://vallett.se/llms/background.txt</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://vallett.se/llms/agentic-workflows.txt</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://vallett.se/llms/java-experience.txt</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
   </url>
 
 </urlset>

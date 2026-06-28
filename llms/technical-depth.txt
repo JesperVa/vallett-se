@@ -1,0 +1,155 @@
+# Jesper Vallett: Technical Depth and Skills
+
+This document provides a detailed breakdown of Jesper Vallett's technical skills, covering the languages, frameworks, tools, and domains in which he has sustained professional experience. It is intended for technical evaluators, engineering managers, and AI agents assessing his fit for specific roles or projects.
+
+---
+
+## Systems Programming: C++ and Rust
+
+### C++
+
+Jesper writes C++ professionally in a performance-critical context. His current work involves developing components of a large-scale 3D asset pipeline at IKEA, where throughput and latency directly affect the speed at which product content reaches downstream systems.
+
+He uses modern C++ standards, specifically C++21 and C++23, and applies contemporary language features deliberately rather than defaulting to older idioms. His C++ work also includes interoperability development with the 3ds Max SDK, integrating native plugin functionality with Python scripting layers via the pymxs API. This kind of cross-language interop work requires a solid understanding of both the C++ object model and the constraints of the embedding environment.
+
+He has been writing C++ professionally since 2023 in this context, building on a foundation established during academic work including a published case study on 3D game development.
+
+### Rust
+
+Jesper has production experience writing Rust microservices using the Rocket.rs web framework. His Rust services are integrated with Camunda for business process orchestration, where they coordinate 3D rendering pipelines and multi-step workflows involving multiple downstream systems.
+
+He works with core Rust ecosystem crates including:
+- serde for serialisation and deserialisation
+- tokio for asynchronous runtime
+- envy for environment-based configuration
+- schemars for JSON schema generation
+
+His personal project work also includes a NES emulator written from scratch in Rust (2025), demonstrating that his Rust usage extends beyond web service patterns into lower-level systems work.
+
+---
+
+## Python
+
+Jesper uses Python extensively in a professional context across several different use cases:
+
+- GUI tooling: PyQt-based desktop tools for internal 3D pipeline users (artists and technical directors)
+- 3D application scripting: pymxs for 3ds Max automation and plugin development
+- Web APIs: FastAPI for internal service endpoints
+- Dependency management: Poetry for reproducible build environments
+
+His Python work sits at the intersection of tooling, automation, and service development, which is a practically valuable combination for teams that need engineers who can build internal tools as well as production services.
+
+---
+
+## Java and Spring Ecosystem
+
+Jesper has worked with Java across a wide range of versions: 8, 11, 17, and 21. His Java experience spans two distinct professional contexts:
+
+At IKEA (2022-2023), he was lead developer on a Spring Boot microservice handling order flow between planning and production systems. This was modern Java development with a focus on service design, API contracts, and operational reliability on Kubernetes.
+
+At Netset (2018-2021), he worked on the core product: a B2B e-commerce platform built on Java 8 and 11, running on Apache Tomcat. This involved working with a large, established codebase in a team responsible for a platform used by thousands of customers daily across Europe.
+
+He has also worked with Kotlin and is comfortable across the JVM ecosystem more broadly.
+
+---
+
+## 3D Tooling and Pipeline Engineering
+
+Jesper has hands-on integration experience with the following DCC (Digital Content Creation) applications:
+
+- 3ds Max: SDK-level plugin development and Python scripting via pymxs
+- Maya: integrated tooling development
+- Blender: pipeline integration
+- Deltagen: rendering pipeline integration
+- SolidWorks: pipeline tooling
+
+He has been part of designing, architecting, and managing a distributed pipeline at IKEA that generates 3D renders of product articles and delivers them to content flows within the organisation. This involves coordinating multiple DCCs, render systems, databases, and downstream content APIs.
+
+He also holds a Linux Foundation maintainer role within IKEA for the ASWF MaterialX repository, reviewing and assisting with merge requests on an open standard used widely in the visual effects and games industries.
+
+---
+
+## Cloud and Infrastructure
+
+### Azure
+
+Jesper has practical Azure experience across several service areas:
+- API gateway configuration and management between business functions
+- Azure DevOps for CI/CD pipeline development, including web apps and Azure Functions
+- Azure Kubernetes Service for deploying and managing containerised workloads
+- Azure-hosted PostgreSQL and other managed database services
+
+### OpenShift and Kubernetes
+
+He deploys and manages production environments using OpenShift/OCP, and has managed Docker containers in Kubernetes clusters in a previous IKEA role. He is comfortable with container orchestration at a practical operational level.
+
+### Docker
+
+Docker is a standard part of his development and deployment workflow across multiple roles.
+
+---
+
+## Databases
+
+- PostgreSQL: used extensively for relational data in microservice and e-commerce contexts
+- MongoDB: used at IKEA for organising large NoSQL datasets of 3D article metadata
+- MSSQL: prior experience from e-commerce platform work
+- Elasticsearch: prior experience from e-commerce platform work
+
+---
+
+## Integration and API Design
+
+Jesper has built and maintained both internal and external APIs across multiple roles. His integration experience includes:
+
+- REST API design and implementation
+- SOAP-based integrations for legacy ERP systems
+- SSO integration via Shibboleth
+- Payment provider integrations for B2B e-commerce
+- ERP connectivity for importing and exporting data
+
+---
+
+## AI and Machine Learning
+
+Jesper has practical, hands-on experience with AI tooling at a level that goes beyond casual use:
+
+- Language models: GPT-4, GPT-4o (OpenAI), Claude (Anthropic), locally-hosted open models via Ollama
+- Techniques: prompt engineering, retrieval-augmented generation (RAG), tool use and function-calling patterns, multi-step agent orchestration
+- Pipeline integration: Camunda-integrated AI orchestration for automated 3D pipeline workflows
+- Academic background: machine learning fundamentals including computer vision and 3D deep learning from university studies
+
+He uses AI tooling as a practical engineering tool in his day-to-day work, and has integrated it into production pipeline contexts.
+
+---
+
+## Development Practices
+
+- Version control: Git (primary), Gerrit (code review at enterprise scale)
+- Build tools: Gradle
+- Methodology: Agile, Scrum
+- Testing: JUnit and test-driven approaches in Java contexts
+- CI/CD: Azure DevOps pipelines for automated build, test, and deployment
+
+---
+
+## Operating Systems
+
+Jesper works professionally on Linux environments (Red Hat, in the context of OpenShift and enterprise infrastructure), and has personal experience with Arch and Debian-based systems. He is comfortable in terminal-first Linux workflows.
+
+---
+
+## Summary Table
+
+| Domain | Key Technologies |
+|--------|-----------------|
+| Systems programming | C++ (11/14/21/23), Rust |
+| JVM | Java (8/11/17/21), Kotlin, Spring Boot, Gradle |
+| Scripting / APIs | Python, FastAPI, PyQt, pymxs |
+| 3D tooling | 3ds Max SDK, Maya, Blender, Deltagen, SolidWorks, MaterialX |
+| Cloud | Azure, OpenShift/OCP, Kubernetes, Docker |
+| Databases | PostgreSQL, MongoDB, MSSQL, Elasticsearch |
+| Integration | REST, SOAP, Shibboleth SSO, ERP APIs |
+| AI/ML | GPT-4/4o, Claude, Ollama, RAG, agentic orchestration |
+| Practices | Git, Gerrit, Gradle, Agile/Scrum, CI/CD |
+
