@@ -2,24 +2,125 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Jesper Vallett</title>
-    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jesper Vallett — Senior Software Engineer specialising in systems programming, 3D pipeline engineering, and microservice architecture. Based in Älmhult, Sweden.">
+    <meta name="author" content="Jesper Vallett">
+    <meta name="theme-color" content="#111111">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://vallett.se/">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="profile">
+    <meta property="og:title" content="Jesper Vallett — Senior Software Engineer">
+    <meta property="og:description" content="Senior Software Engineer specialising in systems programming, 3D pipeline engineering, and microservice architecture.">
+    <meta property="og:url" content="https://vallett.se/">
+    <meta property="og:image" content="https://vallett.se/img/full_size_profile.jpg">
+    <meta property="og:locale" content="en_GB">
+    <meta property="profile:first_name" content="Jesper">
+    <meta property="profile:last_name" content="Vallett">
+
+    <!-- Twitter / X Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Jesper Vallett — Senior Software Engineer">
+    <meta name="twitter:description" content="Senior Software Engineer specialising in systems programming, 3D pipeline engineering, and microservice architecture.">
+    <meta name="twitter:image" content="https://vallett.se/img/full_size_profile.jpg">
+
+    <!-- LLM / AI discoverability (machine-readable only) -->
+    <link rel="alternate" type="text/plain" href="/llms.txt" title="LLMs.txt">
+
+    <!-- Structured data: Person -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Jesper Vallett",
+      "url": "https://vallett.se",
+      "email": "jesper@vallett.se",
+      "image": "https://vallett.se/img/full_size_profile.jpg",
+      "jobTitle": "Senior Software Engineer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "IKEA"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Älmhult",
+        "addressCountry": "SE"
+      },
+      "sameAs": [
+        "https://github.com/jesperva",
+        "https://www.linkedin.com/in/jesper-vallett/"
+      ],
+      "knowsAbout": [
+        "C++", "Rust", "Java", "Python", "Kotlin",
+        "3D Pipeline Engineering", "DCC Tooling",
+        "Microservice Architecture", "Spring Boot",
+        "Azure", "Kubernetes", "OpenShift", "Docker",
+        "AI/ML Workflows", "Agentic AI", "LLM Integration",
+        "Retrieval-Augmented Generation", "MongoDB", "PostgreSQL"
+      ]
+    }
+    </script>
+
+    <title>Jesper Vallett — Senior Software Engineer</title>
     <link rel="stylesheet" href="vallett-se.css">
 </head>
-<body class="centered">
-    <div class="top-margin">
-        <img class="rounded_image" src="img/profile.png" alt="Avatar">
+<body>
+    <div class="layout">
+
+        <!-- ── Left: profile panel ─────────────────────────────── -->
+        <aside class="profile-panel">
+            <div class="page">
+
+                <header class="identity">
+                    <img class="avatar"
+                         src="img/profile.png"
+                         alt="Jesper Vallett — profile photo"
+                         width="110" height="110">
+                    <h1>Jesper Vallett</h1>
+                    <p class="job-title">Senior Software Engineer</p>
+                    <address class="email">
+                        <a href="mailto:jesper@vallett.se">jesper@vallett.se</a>
+                    </address>
+                </header>
+
+                <main>
+                    <nav aria-label="Profile links">
+                        <ul class="action-list">
+                            <li>
+                                <a class="action-btn" href="https://github.com/jesperva"
+                                   target="_blank" rel="noopener noreferrer">GitHub</a>
+                            </li>
+                            <li>
+                                <a class="action-btn" href="https://www.linkedin.com/in/jesper-vallett/"
+                                   target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                            </li>
+                            <li>
+                                <a class="action-btn" href="/files/Jesper_Vallett_CV.pdf"
+                                   target="_blank" rel="noopener noreferrer">CV — PDF</a>
+                            </li>
+                            <!-- Blog button: visible on mobile only -->
+                            <li class="mobile-only">
+                                <a class="action-btn" href="/blog.html">Blog</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </main>
+
+            </div>
+        </aside>
+
+        <!-- ── Right: blog panel ───────────────────────────────── -->
+        <section class="blog-panel" aria-label="Blog">
+            <div class="blog-inner" id="blog-content">
+                <p class="blog-loading">Loading…</p>
+            </div>
+        </section>
+
     </div>
-    <div class="top-margin">
-        <h1>Jesper Vallett</h1>
-    </div>
-    <div class="links top-margin">
-        <a href="https://github.com/jesperva" target="_blank"><button>Github</button></a>
-        <a href="https://www.linkedin.com/in/jesper-vallett/" target="_blank"><button>Linkedin</button></a>
-        <a href="/files/Jesper_Vallett_CV.pdf" target="_blank"><button>CV - PDF</button></a>
-    </div>
-    <div class="contact-info top-margin">
-        <b>Mail:</b> jesper@vallett.se
-    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="blog.js"></script>
 </body>
 </html>

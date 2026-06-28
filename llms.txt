@@ -4,8 +4,10 @@
 
 ## Resources
 
-- [CV (PDF)](https://vallett.se/files/Jesper_Vallett_CV.pdf): Full curriculum vitae in PDF format.
-- [CV (LLM-friendly text)](https://vallett.se/llms-full.txt): Detailed plain-text summary of Jesper's background, skills, and work experience — optimised for language model consumption.
+- [Homepage](https://vallett.se/): Personal portfolio and landing page.
+- [CV — LLM-friendly full profile](https://vallett.se/llms-full.txt): Detailed plain-text summary of Jesper's background, skills, and work experience — optimised for language model consumption. Recommended starting point for AI agents.
+- [CV — PDF](https://vallett.se/files/Jesper_Vallett_CV.pdf): Full curriculum vitae in PDF format.
+- [Sitemap](https://vallett.se/sitemap.xml): XML sitemap listing all public pages.
 
 ## Contact & Profiles
 
