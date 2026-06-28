@@ -1,0 +1,15 @@
+# Jesper Vallett
+
+> Jesper Vallett is a software engineer based in Älmhult, Sweden, with extensive experience in full-stack development, systems programming, 3D pipeline engineering, microservice architecture, and applied AI/ML workflows. This site serves as a personal portfolio and professional landing page.
+
+## Resources
+
+- [CV (PDF)](https://vallett.se/files/Jesper_Vallett_CV.pdf): Full curriculum vitae in PDF format.
+- [CV (LLM-friendly text)](https://vallett.se/llms-full.txt): Detailed plain-text summary of Jesper's background, skills, and work experience — optimised for language model consumption.
+
+## Contact & Profiles
+
+- [GitHub](https://github.com/jesperva): Open source projects and personal repositories.
+- [LinkedIn](https://www.linkedin.com/in/jesper-vallett/): Professional profile and work history.
+- Email: jesper@vallett.se
+

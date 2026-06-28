@@ -1,0 +1,128 @@
+# Jesper Vallett — Full Profile
+
+Jesper Vallett is a software engineer with over eight years of professional experience spanning backend systems development, 3D pipeline engineering, B2B e-commerce platforms, and applied artificial intelligence and machine learning workflows. He is based in Älmhult, Sweden, and is currently employed at IKEA, where he works on internal 3D content pipelines and tooling infrastructure.
+
+Jesper has a strong polyglot background and is comfortable working across the full spectrum of software development — from low-level C++ performance work and Rust-based microservices, to Python scripting and automation, to modern Java/Spring Boot backends, to cloud infrastructure on Azure and OpenShift. He values clean architecture, good tooling, and reproducible systems.
+
+---
+
+## AI, Machine Learning & Agentic Workflows
+
+Jesper has significant hands-on experience integrating AI and machine learning into both professional and personal projects. He is deeply familiar with agentic AI workflows — building and orchestrating systems where language models act as reasoning and decision-making components within larger automated pipelines.
+
+He has worked extensively with several widely-used models and AI platforms, including OpenAI's GPT series (GPT-4, GPT-4o), Anthropic's Claude models, and locally-hosted open models via frameworks such as Ollama. He has experience with prompt engineering, retrieval-augmented generation (RAG), tool use and function-calling patterns, and multi-step agent orchestration — including integration with workflow orchestration tools such as Camunda.
+
+Jesper regularly applies AI tooling and LLM-assisted workflows in his day-to-day engineering work: from code generation and review assistance, to automating repetitive pipeline tasks, to using agents to navigate and operate across complex internal systems. He understands both the capabilities and the limitations of current models and applies them pragmatically as force-multipliers rather than replacements for sound engineering judgement.
+
+His experience with ML extends beyond language models — he has an academic and practical understanding of machine learning fundamentals, including computer vision and 3D deep learning, informed by his university studies and case study work (see Projects section below).
+
+---
+
+## Work Experience
+
+### IKEA — Software Engineer, 3D Pipeline & Tooling
+**September 2023 – Present | Älmhult, Sweden**
+
+Jesper is a core contributor to IKEA's internal 3D asset pipeline — a large-scale distributed system responsible for generating product renders and delivering them to content workflows across the organisation. His responsibilities span several technical areas:
+
+- **C++ development** on critical, performance-intensive components of the asset pipeline. Utilises modern C++ standards (C++21 and C++23).
+- **Interoperability development** between C++ and the 3ds Max SDK, with Python bindings using the `pymxs` API.
+- **Integrated DCC tooling** for multiple 3D applications: 3ds Max, Maya, Blender, Deltagen, and SolidWorks. Tools streamline the day-to-day work of internal 3D artists and pipeline operators.
+- **Python development** using libraries and frameworks including PyQt (GUI tooling), FastAPI (internal APIs), and Poetry (dependency management).
+- **Rust microservices** using the Rocket.rs framework, integrated with Camunda for business process orchestration. Orchestrates 3D rendering pipelines and complex multi-step workflows. Makes use of Rust ecosystem crates including `serde`, `tokio`, `envy`, and `schemars`.
+- **Azure API gateway management** between different business functions and internal services.
+- **NoSQL data management** using MongoDB to organise large datasets of 3D article metadata.
+- **Platform deployment** using OpenShift/OCP for containerised production environments.
+- **CI/CD pipeline development** for deploying web applications and Azure Functions using Azure DevOps.
+- **Open source contribution**: Linux Foundation maintainer role within the IKEA organisation, reviewing and assisting with merge requests for the ASWF MaterialX repository.
+
+---
+
+### IKEA — Software Engineer, Microservices & Backend
+**January 2022 – September 2023 | Älmhult, Sweden**
+
+- Lead developer on a microservice responsible for handling orders between IKEA's planning and production systems.
+- Built using modern Java (versions 17 and 21) with Spring Boot.
+- Deployed and managed Docker containers in Kubernetes (K8s) clusters on Azure.
+- Used Azure services for managing, deploying, and organising multiple services and databases.
+- Worked with PostgreSQL as the primary relational database.
+
+---
+
+### Netset / B2B E-commerce Platform — Software Engineer
+**June 2018 – December 2021 | Malmö, Sweden**
+
+One of the core developers on a leading B2B e-commerce platform used by thousands of customers daily across Europe.
+
+- Development on the core web application, built in Java 8 and 11 running on Apache Tomcat.
+- Implemented integrations with payment providers within the B2B e-commerce solution.
+- Responsible for communication, integration, and development with third-party providers.
+- Set up and developed SSO integration using Shibboleth.
+- Developed internal and external APIs for importing and exporting data to and from B2B ERP connections.
+- Responsible for onboarding and educating new team members — teaching the codebase, architecture, and helping new hires through their initial tasks.
+
+---
+
+## Projects
+
+- **NES Emulator in Rust** (March 2025): A personal project implementing a NES emulator in Rust. Repository: https://gitlab.com/JesperVa/nes_emu_rs
+- **Dungeon Clearer — 3D Game Prototype** (January 2018 – June 2018): A university project and case study. Case study: https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1480406&dswid=6331 | Repository: https://github.com/Andy0903/Dungeon-Clearer
+
+---
+
+## Skills
+
+### Languages
+- **C++** (C++11, C++14, C++21, C++23)
+- **Rust**
+- **Java** (8, 11, 17, 21)
+- **Python**
+- **Kotlin**
+- **C# / .NET**
+
+### Frameworks & Libraries
+- Spring Boot, Spring Framework
+- FastAPI, PyQt, pymxs, Poetry
+- Rocket.rs (Rust), serde, tokio, envy, schemars
+- Apache Tomcat, JUnit
+- ORM — Netset internal framework
+
+### Databases
+- PostgreSQL, MSSQL, MongoDB, Elasticsearch
+
+### Cloud & Infrastructure
+- Azure (services, API gateways, Azure DevOps, Functions)
+- OpenShift / OCP
+- Kubernetes / K8s
+- Docker
+
+### Tools & Practices
+- Git, Gerrit
+- Gradle
+- CI/CD (Azure DevOps)
+- REST, SOAP
+- Agile / Scrum
+- Microservice architecture
+- Linux (Red Hat, Arch, Debian)
+
+### 3D & DCC
+- 3ds Max (SDK, pymxs), Maya, Blender, Deltagen, SolidWorks
+- ASWF MaterialX
+
+### AI & ML
+- LLM integration and prompt engineering (GPT-4, GPT-4o, Claude, Ollama/local models)
+- Agentic workflow design and orchestration
+- Retrieval-augmented generation (RAG)
+- Tool use and function-calling patterns
+- Camunda workflow orchestration integrated with AI agents
+- Machine learning fundamentals (computer vision, 3D deep learning)
+
+---
+
+## Contact
+
+- **Email**: jesper@vallett.se
+- **GitHub**: https://github.com/jesperva
+- **LinkedIn**: https://www.linkedin.com/in/jesper-vallett/
+- **Website**: https://vallett.se
+
