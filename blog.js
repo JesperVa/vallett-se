@@ -32,6 +32,19 @@ function backTarget() {
     return isStandalone() ? '/blog.html' : '/';
 }
 
+function trackPageView(slug) {
+    if (typeof window.siteAnalytics !== 'object') {
+        return;
+    }
+
+    const path = slug ? `/posts/${slug}` : location.pathname;
+    const title = slug
+        ? document.querySelector('.prose h1')?.textContent || slug
+        : document.title;
+
+    window.siteAnalytics.countPageView(path, title);
+}
+
 /* ── Rendering ───────────────────────────────────────────── */
 
 function renderPostList(posts, container) {
@@ -72,6 +85,7 @@ async function renderPost(slug, posts, container) {
                 ${marked.parse(md)}
             </article>
         `;
+        trackPageView(slug);
     } catch (err) {
         container.innerHTML = `
             <div class="prose">
@@ -98,6 +112,7 @@ async function route(posts, container) {
         await renderPost(slug, posts, container);
     } else {
         renderPostList(posts, container);
+        trackPageView();
     }
     // Scroll to top of blog panel whenever route changes
     container.scrollTop = 0;
@@ -125,6 +140,3 @@ async function init() {
 }
 
 init();
-
-
-
