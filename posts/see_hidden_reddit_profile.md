@@ -11,13 +11,13 @@ I assume it has not been fixed because this feature belongs to old Reddit, which
 ## Getting to the point
 
 For this example, I chose a random account from my front page:
-![img.png](images/see_hidden_reddit_profile/hidden_history.png)
+![img.png](posts/images/see_hidden_reddit_profile/hidden_history.png)
 
 The account is hidden, so its history is not visible.
 
 On the right side of the screen, click the **+ friends** button.
-![img_3.png](images/see_hidden_reddit_profile/add_friend.png)
+![img_3.png](posts/images/see_hidden_reddit_profile/add_friend.png)
 
 Then visit https://old.reddit.com/r/friends/comments/. You should see the account's history in chronological order.
 
-![reddit_history.jpg](images/see_hidden_reddit_profile/reddit_history.jpg)
+![reddit_history.jpg](posts/images/see_hidden_reddit_profile/reddit_history.jpg)
